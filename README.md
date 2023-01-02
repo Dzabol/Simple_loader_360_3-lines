@@ -1,3 +1,3 @@
 # Simple_loader_360_3-lines
 
-<p><img align="cente" src="https://github.com/Dzabol/DropDownListWithScrollBar/blob/main/DropDownListWithScrollBar.gif"/></P>
+<p><img align="cente" src="https://github.com/Dzabol/Simple_loader_360_3-lines/blob/main/loader360.gif?raw=true"/></P>
