@@ -25,23 +25,21 @@
         --loaderThirdSpinTime: 3s;
       }
       #loader-wrapper {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         z-index: 1000;
         background-color: black;
+        height: 100vh;
+        width: 100vw;
       }
 
       #loader {
         display: block;
         position: relative;
-        left: 50%;
-        top: 50%;
         width: 150px;
         height: 150px;
-        margin: -45px 0 0 -75px;
+        margin: 15px;
 
         border-radius: 50%;
         border: var(--loaderThickness) solid transparent;
@@ -129,11 +127,20 @@
           transform: rotate(360deg); /* Firefox 16+, IE 10+, Opera */
         }
       }
+
+      .loaderText {
+        position: absolute;
+        align-items: center;
+        font-size: 15px;
+        color: white;
+      }
+      /* =============================================================================== */
     </style>
   </head>
   <body>
     <div class="loader-wrapper" id="loader-wrapper">
       <div id="loader"></div>
+      <div class="loaderText">Loading...</div>
     </div>
   </body>
 </html>
